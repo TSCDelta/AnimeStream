@@ -1,0 +1,33 @@
+.favorites-page {
+	font-family: Arial, sans-serif;
+	background-color: #f3f4f6;
+	padding: 20px;
+	min-height: 100vh;
+}
+
+.favorites-title {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.favorites-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 20px;
+}
+
+.favorites-grid > * {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.favorites-grid > *:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
