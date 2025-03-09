@@ -1,0 +1,1 @@
+AnimeStream is a test project that uses the JikanAPI provided by MyAnimeList to allow people to search through their database of anime and manipulate their data. This project provides a search functionality, a functionality to see the stats of each anime, and a function that allows you to favourite an anime.
